@@ -19,9 +19,9 @@ public class Triangle {
     }
 
     public static void printLine(int start, int end) {
-      for (int i = start; i <= end; i++) {
-        System.out.print(" " + i);
+      for (int i = start; i < end; i++) {
+        System.out.print(i + " ");
       }
-        System.out.println();
+        System.out.println(end);
     }
 }
